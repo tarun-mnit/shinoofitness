@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shinoo fitness</title>
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('images/4.jpg');
+           
+            background-size: 90%;
+        }
+
+        .left {
+            /* border: 4px solid red; */
+            width: 10%;
+            margin: 10px 6px;
+            display: inline-block;
+            position: absolute;
+            left: 40px;
+            top: 20px;
+            text-align: center;
+            font size: 80px;
+
+
+
+
+        }
+
+        .mid {
+            /* border: 4px solid blue; */
+            display: block;
+            width: 42%;
+            margin: 40px auto;
+            overflow: auto;
+
+        }
+
+        .right {
+            /* border: 4px solid green; */
+            display: inline-block;
+            width: 18%;
+            position: absolute;
+            right: 40px;
+            top: 13px;
+            margin: 20px 18px;
+        }
+
+        .left img {
+            filter: invert(100%);
+            width: 120px;
+            display: inline-block;
+
+        }
+
+        .left span {
+            font-size: 20px;
+        }
+
+        .mid ul li {
+            float: left;
+            list-style: none;
+            padding: 12px;
+            position: relative;
+            left: 67px;
+
+        }
+
+        .navmenu a {
+            text-decoration: none;
+            color: grey;
+        }
+
+        .navmenu a:hover {
+            color: white;
+            font-style: italic;
+            cursor: grab;
+            font-size: 18px;
+
+        }
+
+        .navmenu a:active {
+            cursor: grabbing;
+
+        }
+
+        .search {
+            width: 74px;
+            border-radius: 5px;
+        }
+
+        .btn {
+            border-radius: 5px;
+            color: grey;
+            font-size: 20px;
+            padding: 7px;
+            text-decoration: none;
+            font-style: italic;
+        }
+
+        .btn:hover {
+            color: white;
+            font-style: italic;
+            cursor: grab;
+            font-size: 22px;
+        }
+
+        .quick {
+            border: 4px solid white;
+            display: block;
+            width: 50%;
+            margin: 107px 45px;
+            border-radius: 15px;
+
+        }
+
+        .details {
+            width: 490px;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+
+        }
+
+        .submit {
+            width: 112px;
+            padding: 2px;
+            display: block;
+            margin: 17px 539px;
+            border-radius: 5px;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/logo2.png" alt="">
+            <span>Shinoo fitness</span>
+        </div>
+        <div class="mid">
+            <nav class="navmenu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our team</a></li>
+                    <li><a href="#">personal training</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <a href="#" class="btn">Register </a>
+            <a href="#" class="btn">sign in</a>
+            <input type="text" class="search" placeholder="search here">
+
+        </div>
+    </header>
+    <div class="quick">
+        <h3>For quick regestration enter your details here . . .</h3>
+        <div><input type="text" class="details" placeholder="enter your name"></div>
+        <div><input type="number" class="details" placeholder="enter your age"></div>
+        <div><input type="email" class="details" placeholder="enter your email"></div>
+        <div><input type="number" class="details" placeholder="enter your phone no."></div>
+        <div><input type="text" class="details" placeholder="locality"></div>
+        <div>
+            <select name="branch of our gym" class="details">
+                <option value="gfgdf" selected>select branch</option>
+                <option value="delhi">delhi</option>
+                <option value="bombay">bombay</option>
+                <option value="jaipur">jaipur</option>
+                <option value="karnataka">karnataka</option>
+                <option value="ujjain">ujjain</option>
+            </select>
+        </div>
+        <div> <button type="submit" class="submit">submit</button></div>
+
+    </div>
+
+
+
+</body>
+
+</html>
